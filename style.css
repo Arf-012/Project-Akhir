@@ -1,0 +1,46 @@
+/* Ini buat Navbar*/
+.navbar {
+    background-color: #4a90e2; 
+    color: white;
+    padding: 1rem;
+}
+
+/* Container styles */
+.container {
+    width: 100%;
+    max-width: 1200px; 
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+/* Brand link styles */
+.brand {
+    font-size: 1.5rem; 
+    font-weight: bold; 
+    text-decoration: none;
+    color: white; 
+}
+
+/* Navigation menu */
+.nav-menu {
+    list-style: none;
+    display: flex;
+    gap: 1rem; 
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation link styles */
+.nav-link {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #ccc; 
+}
