@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: larger;
+    margin: 0;
+    padding: 0;
+    background-color: #138394f3;
+    color: rgb(75, 21, 19);
+    box-sizing: border-box;
+}
+
+nav {
+    color: aliceblue;
+    background-color: #506b7af3;
+}
+
+section {
+    text-align: center;
+}
+
+.container {
+    width: 99%;
+    margin: 20px 0;
+    padding: 50px 0;
+}
+
+.box {
+    border: 3px solid #172922f3;
+    background-color: rgb(194, 229, 225);
+    border-radius: 55px; /* Membuat border melengkung */
+    padding: 30px;
+    margin: 50px 50px;
+}
+
+.about-container { /* untuk text dan pict */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+}
+
+.about-pict {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 30px;
+    cursor: pointer;
+    border-style: outset;
+}
+
+@media (max-width: 600px) { /* agar menjadi flexsibel */
+    .container {
+        width: 100%;
+    }
+
+    .about-pict {
+        width: 100px;
+        height: 100px;
+    }
+
+    .about-container {
+        flex-direction: column; /* agar gambar dari kanan pindah keatas saat layar di perkecil */
+    }
+}
+
+.btn {
+    text-decoration: solid;
+    color: rgb(2, 2, 2);
+    background-color: rgb(228, 218, 29);
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    color: white;
+    background-color: rgb(208, 140, 88);
+}
