@@ -84,7 +84,7 @@ body {
 
     .nav-menu {
         flex-direction: column; 
-        width: 60%;
+        width: 100%;
         text-align: left;
     }
 
