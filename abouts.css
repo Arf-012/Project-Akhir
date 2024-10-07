@@ -36,7 +36,7 @@ body {
     border-style: outset;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 100px) {
     .about-container {
         flex-direction: column;
     }

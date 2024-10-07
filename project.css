@@ -1,0 +1,50 @@
+.body {
+    background-color: blueviolet;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+}
+
+.judul{
+    font-family: Times, serif;
+    font-size: 50px;
+    text-align: center;
+    color: rgba(219, 201, 233, 0.452);
+
+}
+
+.container{
+    width: 100px;
+    margin: auto;
+}
+
+.galllery {
+    margin: 85px;
+    border: 14px solid rgb(142, 176, 241);
+    float: center;
+    width: 250px;
+    height: auto;
+    flex-direction: row;
+    display: flex;
+    border-style: groove;
+    padding: 16px; 
+    box-sizing: border-box;
+}
+
+.galllery:hover {
+    border: 10px solid purple;
+}
+
+.galllery img {
+    width: 100%;
+    height: auto;
+}
+
+.desc {
+    font-family:arial sans-serif;
+    text-transform: uppercase;
+    text-align: left;
+    font-size: 20px;
+}

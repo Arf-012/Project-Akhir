@@ -7,14 +7,18 @@
     <link rel="stylesheet" href="navbar.css">
     <link rel="stylesheet" href="abouts.css">
     <link rel="stylesheet" href="Zahircss.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="project.css">
 </head>
+
 <body>
     <nav class="navbar">
         <div class="container">
             <a href="#" class="brand">Portfolio</a>
             <ul class="nav-menu">
                 <li><a href="#" class="nav-link" data-page="home">Home</a></li>
-                <li><a href="/about.html" class="nav-link" data-page="about">About</a></li>
+                <li><a href="#" class="nav-link" data-page="about">About</a></li>
                 <li><a href="#" class="nav-link" data-page="projects">Projects</a></li>
                 <li><a href="#" class="nav-link" data-page="skills">Skills</a></li>
                 <li><a href="#" class="nav-link" data-page="contact">Contact</a></li>
@@ -29,13 +33,12 @@
 
     <section class="about">
         <div class="container about-container">
-            <img src="bfd50216031f9ad9b8efe8b5921c84f6.jpg" alt="img" class="about-pict">
+            <img src="1-9.jpg" alt="img" class="about-pict">
             <div class="about-content">
                 <h1>About Us</h1>
                 <h2>Perkenalkan</h2>
                 <p>Kita adalah newbie developer team yang bekerja dalam pembuatan desain web statis dan berkolaborasi. Kami beranggotakan 5 orang yaitu Farhan (X RPL 2), Azkaril (X RPL 1), Muntazier (X RPL 2), Talita (X RPL 2) dan Nazwa (X RPL 2), dimana kami berfokus dalam project Devaccto pengembangan web yang dinamis dan responsive. Berikut adalah informasi detail tentang kami.</p>
-                <a href="more.html" target="_blank">
-                    <button class="btn">MORE</button>
+                    <button class="btn" onclick="document.getElementById('section-id').scrollIntoView();">MORE</button>
                 </a>
             </div>
         </div>
@@ -43,18 +46,74 @@
     
     <section class="experience">
         <div class="experience-main">
-            <img src="WIN_20240830_19_29_12_Pro.jpg" alt="puyeng dech">
+            <img src="Screenshot (9).png" alt="example of our web">
             <div class="experience-text">
                 <h1><marquee>Experience</marquee></h1>
-                <h5>Pengalaman <span>kami</span> selama <span>berkarir</span></h5>
-                <p>Selama kami melaksanakan devacto, kami telah mempelajari tentang Mengembangkan dan memelihara berbagai aplikasi web menggunakan HTML, CSS, JavaScript, dan React.js.
-                    Berkolaborasi dengan tim desain untuk menciptakan antarmuka pengguna yang intuitif dan responsif.
-                    
-                    Mengoptimalkan kinerja web yang responsive dan dinamis bagi pengguna.
-                    
-                    Menggunakan Git untuk manajemen versi dan bekerja dalam lingkungan pengembangan berbasis Agile. </p>
+                <h5 id="section-id">Pengalaman <span>kami</span> selama <span>berkarir</span></h5>
+                <p>Selama kami berkarir, kami telah mempelajari beberapa hal, seperti:
+                    <br> 
+                    <ol>
+                        <li>Mengembangkan dan memelihara berbagai aplikasi web menggunakan HTML, CSS, JavaScript, dan React.js.
+                            Berkolaborasi dengan tim desain untuk menciptakan antarmuka pengguna yang intuitif dan responsif.</li>
+                        <li>Mengoptimalkan kinerja web yang responsive dan dinamis bagi pengguna.</li>
+                        <li>Menggunakan Git untuk manajemen versi dan bekerja secara fleksibel antaranggota</li>
+                    </ol>
+                </p>
             </div>
         </div>
     </section>
+
+    <section class="Talita">
+        <div class="header">
+            <div class="judul">Talita gemaz</div>
+                <div class="galllery">
+                        <img src="Screenshot (9).png" >  
+                </div>
+                <div class="galllery">
+                        <img src="Screenshot 2024-10-07 190201.png" >
+                </div>
+                <div class="galllery">
+                        <img src="Screenshot (10).png" >
+                </div>
+        </div>
+        </header>
+    </section>
+
+    <footer>
+        <div class="footercontainer">
+            <div class="header-foot">
+                <h2>connect with me</h2>
+                <br>
+                   <b>Tim Delapan</b>
+                   <p>farhan260908@gmail.com</p>
+                   <p>+62838-9241-3621</p>
+                   <br>
+                   <p>Find my resume<a href="">here</a></p>
+                   <br><br><br>
+                   <center><h2>connect with me</h2></center>
+            </div>
+       
+            </br>
+            <div class="sosial-links">
+                <a href="https://instagram.com/aaw4hn"><i class="fab fa-instagram"></i></a>
+                <a href="https://wa.me/qr/IO2Y3XSKI3FYL1"><i class="fab fa-whatsapp"></i></a>
+                <a href="https://facebook.com/waa wa"><i class="fab fa-facebook"></i></a>
+                <a href="https://line.me/ti/p/9-CUfsn0aQ"><i class="fab fa-line"></i></a>
+            </div>
+            <div class="footernav">
+                <ul>
+                    <a href="">home</a>
+                    <a href="">news</a>
+                    <a href="">about</a>
+                    <a href="">contact us</a>
+                    <a href="">our team</a>
+                </ul>
+            </div>
+            </div>
+            <div class="footerbottom">
+                <p>&copy 2024 <span class="designer">october</span></p>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
