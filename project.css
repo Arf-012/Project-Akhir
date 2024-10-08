@@ -1,50 +1,59 @@
-.body {
-    background-color: blueviolet;
-}
-
 .header {
     display: flex;
+    flex-direction: column; /* Menumpuk elemen di dalam header */
     align-items: center;
 }
 
-.judul{
+.judul {
     font-family: Times, serif;
-    font-size: 50px;
+    font-size: 3vw; /* Responsif berdasarkan lebar viewport */
     text-align: center;
-    color: rgba(219, 201, 233, 0.452);
-
+    color: rgba(0, 0, 0, 0.452);
+    margin: 20px 0; /* Menambahkan margin atas dan bawah */
 }
 
-.container{
-    width: 100px;
+.container {
+    width: 90%;
+    max-width: 1200px;
     margin: auto;
+    display: flex;
+    flex-wrap: wrap; /* Agar item gallery dapat membungkus */
+    justify-content: center; /* Centering item gallery */
 }
 
-.galllery {
-    margin: 85px;
-    border: 14px solid rgb(142, 176, 241);
-    float: center;
-    width: 250px;
-    height: auto;
-    flex-direction: row;
+.gallery {
+    margin: 5px; /* Memberikan jarak antar gambar */
+    border: 5px solid rgb(142, 176, 241);
     display: flex;
-    border-style: groove;
-    padding: 16px; 
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 250px; /* Membuat gallery responsif */
     box-sizing: border-box;
 }
 
-.galllery:hover {
+.gallery:hover {
     border: 10px solid purple;
 }
 
-.galllery img {
+.gallery img {
     width: 100%;
     height: auto;
+    display: block; /* Menghilangkan ruang di bawah gambar */
 }
 
-.desc {
-    font-family:arial sans-serif;
-    text-transform: uppercase;
-    text-align: left;
-    font-size: 20px;
+/* Media queries untuk tampilan lebih besar */
+@media (min-width: 768px) {
+    .judul {
+        font-size: 2.5em; /* Mengatur ukuran font pada layar lebih besar */
+    }
+
+    .gallery {
+        flex: 1 1 200px; /* Mengatur ukuran dasar gallery */
+    }
+}
+
+@media (min-width: 900px) {
+    .judul {
+        font-size: 2em; /* Ukuran font lebih besar untuk layar sangat besar */
+    }
 }

@@ -3,28 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project Akhir</title>
+    <title>Project Akhir Devaccto</title>
     <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="intro.css">
     <link rel="stylesheet" href="abouts.css">
     <link rel="stylesheet" href="Zahircss.css">
+    <link rel="stylesheet" href="project.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
     <link rel="stylesheet" href="footer.css">
-    <link rel="stylesheet" href="project.css">
 </head>
 
 <body>
     <nav class="navbar">
-        <div class="container">
-            <a href="#" class="brand">Portfolio</a>
-            <ul class="nav-menu">
-                <li><a href="#" class="nav-link" data-page="home">Home</a></li>
-                <li><a href="#" class="nav-link" data-page="about">About</a></li>
-                <li><a href="#" class="nav-link" data-page="projects">Projects</a></li>
-                <li><a href="#" class="nav-link" data-page="skills">Skills</a></li>
-                <li><a href="#" class="nav-link" data-page="contact">Contact</a></li>
-            </ul>
+        <b><div class="porto">PORTOFOLIO</div></b>
+        <div class="burger" id="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
         </div>
+        <ul class="nav-links" id="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Experience</a></li>
+            <li><a href="#">Project</a></li>
+        </ul>
     </nav>
+
+    <script src="burger_nav.js"></script>
 
     <section class="intro">
         <h1>Welcome to Our Portfolio</h1>
@@ -32,14 +37,16 @@
     </section>
 
     <section class="about">
-        <div class="container about-container">
+        <div class="about-container">
             <img src="1-9.jpg" alt="img" class="about-pict">
-            <div class="about-content">
-                <h1>About Us</h1>
-                <h2>Perkenalkan</h2>
-                <p>Kita adalah newbie developer team yang bekerja dalam pembuatan desain web statis dan berkolaborasi. Kami beranggotakan 5 orang yaitu Farhan (X RPL 2), Azkaril (X RPL 1), Muntazier (X RPL 2), Talita (X RPL 2) dan Nazwa (X RPL 2), dimana kami berfokus dalam project Devaccto pengembangan web yang dinamis dan responsive. Berikut adalah informasi detail tentang kami.</p>
-                    <button class="btn" onclick="document.getElementById('section-id').scrollIntoView();">MORE</button>
-                </a>
+            <div class="border">
+                <div class="kotak">
+                    <h1>About Us</h1>
+                    <h2>Perkenalkan</h2>
+                    <p>Kita adalah newbie developer team yang bekerja dalam pembuatan desain web statis dan berkolaborasi. Kami beranggotakan 5 orang yaitu Farhan (X RPL 2), Azkaril (X RPL 1), Muntazier (X RPL 2), Talita (X RPL 2) dan Nazwa (X RPL 2), dimana kami berfokus dalam project Devaccto pengembangan web yang dinamis dan responsive. Berikut adalah informasi detail tentang kami.</p>
+                        <button class="btn" onclick="document.getElementById('section-id').scrollIntoView();">MORE</button>
+                    </a>
+                </div>
             </div>
         </div>
     </section>
@@ -63,34 +70,35 @@
         </div>
     </section>
 
-    <section class="Talita">
-        <div class="header">
-            <div class="judul">Talita gemaz</div>
-                <div class="galllery">
-                        <img src="Screenshot (9).png" >  
-                </div>
-                <div class="galllery">
-                        <img src="Screenshot 2024-10-07 190201.png" >
-                </div>
-                <div class="galllery">
-                        <img src="Screenshot (10).png" >
-                </div>
+    <section class="talita">
+    <div class="header">
+        <div class="judul">Project</div>
+    </div>
+    <div class="container">
+        <div class="gallery">
+            <img src="Screenshot (9).png" alt="Deskripsi gambar 1">
         </div>
-        </header>
+        <div class="gallery">
+            <img src="Screenshot 2024-10-07 190201.png" alt="Deskripsi gambar 2">
+        </div>
+        <div class="gallery">
+            <img src="Screenshot (10).png" alt="Deskripsi gambar 3">
+        </div>
+    </div>
     </section>
 
     <footer>
         <div class="footercontainer">
             <div class="header-foot">
-                <h2>connect with me</h2>
+                <h2>CONNECT WITH ME</h2>
                 <br>
                    <b>Tim Delapan</b>
                    <p>farhan260908@gmail.com</p>
                    <p>+62838-9241-3621</p>
                    <br>
-                   <p>Find my resume<a href="">here</a></p>
+                   <p>Find My Resume<a href="">here</a></p>
                    <br><br><br>
-                   <center><h2>connect with me</h2></center>
+                   <center><h2>Connect With Me</h2></center>
             </div>
        
             </br>
@@ -102,16 +110,16 @@
             </div>
             <div class="footernav">
                 <ul>
-                    <a href="">home</a>
-                    <a href="">news</a>
-                    <a href="">about</a>
-                    <a href="">contact us</a>
-                    <a href="">our team</a>
+                    <a href="">HOME</a>
+                    <a href="">NEWS</a>
+                    <a href="">ABOUT</a>
+                    <a href="">CONTACT US</a>
+                    <a href="">OUR TEAM</a>
                 </ul>
             </div>
             </div>
             <div class="footerbottom">
-                <p>&copy 2024 <span class="designer">october</span></p>
+                <p>&copy 2024 <span class="designer">OCTOBER</span></p>
             </div>
         </div>
     </footer>

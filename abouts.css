@@ -1,44 +1,44 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #138394f3;
+    background-color: #2da6b9f3;
     color: rgb(75, 21, 19);
 }
 
-/* About section styles */
+/* about section styles */
 .about {
     text-align: center;
     padding: 50px 20px;
 }
 
-.about-container {
+.kotak {
+    border: 3px solid #172922f3;
+    background-color: rgb(194, 229, 225);
+    border-radius: 55px; /* Membuat border melengkung */
+    padding: 30px;
+    margin: 50px 50px;
+}
+
+.about-container { /* untuk text dan pict */
+    text-align: left;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    flex-wrap: wrap;
-}
-
-.about-content {
-    max-width: 600px;
-    text-align: left;
-    padding: 20px;
-    border: 3px solid #172922f3;
-    background-color: rgb(194, 229, 225);
-    border-radius: 15px;
-    margin: 20px;
+    flex-direction: row-reverse;
 }
 
 .about-pict {
     width: 150px;
     height: 150px;
     border-radius: 50%;
+    display: block;
     margin: 20px;
     cursor: pointer;
     border-style: outset;
 }
 
-@media (max-width: 100px) {
-    .about-container {
-        flex-direction: column;
+@media (max-width: 600px) { /* agar menjadi flexsibel */
+    .container {
+        width: 100%;
     }
 
     .about-pict {
@@ -46,23 +46,17 @@ body {
         height: 100px;
     }
 
-    .about-content {
-        width: 100%;
+    .about-container {
+        flex-direction: column; /* agar gambar dari kanan pindah keatas saat layar di perkecil */
     }
 }
 
-/* Button styles */
 .btn {
-    display: inline-block;
-    padding: 10px 20px;
-    text-decoration: none;
+    text-decoration: solid;
     color: rgb(2, 2, 2);
     background-color: rgb(228, 218, 29);
     cursor: pointer;
     transition: background-color 0.3s;
-    border: none;
-    border-radius: 5px;
-    font-size: 1rem;
 }
 
 .btn:hover {
