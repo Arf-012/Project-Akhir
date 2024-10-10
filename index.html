@@ -14,7 +14,7 @@
 </head>
 
 <body>
-    <nav class="navbar">
+    <nav class="navbar" id="navbar-id">
         <b><div class="porto">PORTOFOLIO</div></b>
         <div class="burger" id="burger">
             <div class="line"></div>
@@ -22,10 +22,10 @@
             <div class="line"></div>
         </div>
         <ul class="nav-links" id="nav-links">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Experience</a></li>
-            <li><a href="#">Project</a></li>
+            <li><a href="#about-page">About</a></li>
+            <li><a href="#experience-id">Experience</a></li>
+            <li><a href="#project-id">Project</a></li>
+            <li><a href="#footer-id">Footer</a></li>
         </ul>
     </nav>
 
@@ -36,7 +36,7 @@
         <p>We are a newbie developer team specializing in static web design and collaboration.</p>
     </section>
 
-    <section class="about">
+    <section class="about" id="about-page">
         <div class="about-container">
             <img src="1-9.jpg" alt="img" class="about-pict">
             <div class="border">
@@ -44,16 +44,16 @@
                     <h1>About Us</h1>
                     <h2>Perkenalkan</h2>
                     <p>Kita adalah newbie developer team yang bekerja dalam pembuatan desain web statis dan berkolaborasi. Kami beranggotakan 5 orang yaitu Farhan (X RPL 2), Azkaril (X RPL 1), Muntazier (X RPL 2), Talita (X RPL 2) dan Nazwa (X RPL 2), dimana kami berfokus dalam project Devaccto pengembangan web yang dinamis dan responsive. Berikut adalah informasi detail tentang kami.</p>
-                        <button class="btn" onclick="document.getElementById('section-id').scrollIntoView();">MORE</button>
+                        <button class="btn"a href="#experience-id">MORE</button>
                     </a>
                 </div>
             </div>
         </div>
     </section>
     
-    <section class="experience">
+    <section class="experience" id="experience-id">
         <div class="experience-main">
-            <img src="Screenshot (9).png" alt="example of our web">
+            <img src="Screenshot (9).png" alt="example of our web" class="example">
             <div class="experience-text">
                 <h1><marquee>Experience</marquee></h1>
                 <h5 id="section-id">Pengalaman <span>kami</span> selama <span>berkarir</span></h5>
@@ -70,7 +70,7 @@
         </div>
     </section>
 
-    <section class="talita">
+    <section class="talita" id="project-id">
     <div class="header">
         <div class="judul">Project</div>
     </div>
@@ -87,7 +87,7 @@
     </div>
     </section>
 
-    <footer>
+    <footer id="footer-id">
         <div class="footercontainer">
             <div class="header-foot">
                 <h2>CONNECT WITH ME</h2>
@@ -102,7 +102,7 @@
             </div>
        
             </br>
-            <div class="sosial-links">
+            <div class="sosial-links" id="Contact">
                 <a href="https://instagram.com/aaw4hn"><i class="fab fa-instagram"></i></a>
                 <a href="https://wa.me/qr/IO2Y3XSKI3FYL1"><i class="fab fa-whatsapp"></i></a>
                 <a href="https://facebook.com/waa wa"><i class="fab fa-facebook"></i></a>
@@ -110,16 +110,13 @@
             </div>
             <div class="footernav">
                 <ul>
-                    <a href="">HOME</a>
-                    <a href="">NEWS</a>
-                    <a href="">ABOUT</a>
-                    <a href="">CONTACT US</a>
-                    <a href="">OUR TEAM</a>
+                    <a href="#navbar-id">HOME</a>
+                    <a href="https://wa.me/+6292413621">CONTACT US</a>
                 </ul>
             </div>
             </div>
             <div class="footerbottom">
-                <p>&copy 2024 <span class="designer">OCTOBER</span></p>
+                <p>&copy 2024 <span class="designer" style="color: whitesmoke;">OCTOBER</span></p>
             </div>
         </div>
     </footer>

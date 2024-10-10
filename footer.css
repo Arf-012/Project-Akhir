@@ -1,12 +1,14 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 .br {
     display: flex;
 }
+
 footer {
     background-color: #ce9da8;
 }
@@ -64,10 +66,10 @@ h2{
     transition: 0.5s;
 }
 .footernav ul a:hover{
-    opacity: 1;
+    opacity: 1rem;
 }
 .footerbottom{
-    background-color: #054a4388;
+    background-color: #8a0b8288;
     padding: 20px;
     text-align: center;
 }
@@ -80,4 +82,18 @@ h2{
     text-transform: uppercase;
     letter-spacing: 1px;
     font-weight: 400;
+}
+
+.header-foot a {
+    text-decoration: solid;
+    color: rgb(2, 2, 2);
+    background-color: #8a0b8288;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    align-items: center;
+    border-radius: 55px;
+    border: #120d12;
 }
