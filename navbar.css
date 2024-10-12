@@ -13,12 +13,12 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #69ffb982;
+    background-color: #000;
     padding: 10px 20px;
 }
 
 .porto {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-size: 24px;
 }
 
@@ -32,13 +32,9 @@ body {
 }
 
 .nav-links a {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     text-decoration: none;
     transition: color 0.3s ease;
-}
-
-.nav-links:hover {
-    color: #f8c81a;
 }
 
 /*burger garis*/
@@ -46,6 +42,7 @@ body {
     display: none;
     flex-direction: column;
     cursor: pointer;
+    transition: all 20ms smooth;
 }
 
 .burger .line {
@@ -63,8 +60,8 @@ body {
         position: absolute;
         top: 60px;
         left: 0;
-        color: #333;
-        background-color: rgba(255, 255, 255, 0.5); /* Transparan */
+        color: #000000;
+        background-color: rgba(0, 0, 0, 0.5); /* Transparan */
         width: 100%;
     }
 

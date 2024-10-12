@@ -1,3 +1,7 @@
+* {
+    scroll-behavior: smooth;
+}
+
 .experience {
     width: 100%;
     padding: 50px 0;

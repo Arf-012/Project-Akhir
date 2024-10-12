@@ -31,7 +31,6 @@
     flex: 1 1 250px; /* Membuat gallery responsif */
     box-sizing: border-box;
     border-radius: 12px;
-
 }
 
 .gallery img:hover {
