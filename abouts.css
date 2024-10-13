@@ -4,8 +4,8 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #2da6b9f3;
-    color: rgb(75, 21, 19);
+    background-color: #124e66;
+    color: #2e3944;
 }
 
 /* about section styles */
@@ -16,8 +16,8 @@ body {
 
 .kotak {
     border: 3px solid #172922f3;
-    background-color: rgb(194, 229, 225);
-    border-radius: 55px; /* Membuat border melengkung */
+    background-color: #d3d9d4;
+    border-radius: 20px; /* Membuat border melengkung */
     padding: 30px;
     margin: 50px 50px;
 }
@@ -59,9 +59,9 @@ body {
     text-decoration: wavy;
     border-style: inherit;
     color: rgb(2, 2, 2);
-    background-color: rgb(228, 218, 29);
+    background-color: rgb(173, 185, 202);
     cursor: pointer;
-    transition: background-color 0.3s;
+    transition: 0.3s ease;
 }
 
 .btn:hover {
