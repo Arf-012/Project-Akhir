@@ -13,6 +13,11 @@
     text-decoration: none;
 }
 
+.my-profile a {
+    text-decoration: none;
+    color: #3c829d;
+}
+
 footer {
     background-image: linear-gradient(to bottom, #124e66, #748d92);
 }
