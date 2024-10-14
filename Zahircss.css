@@ -1,12 +1,25 @@
+* {
+    scroll-behavior: smooth;
+}
+
 .experience {
     width: 100%;
     padding: 50px 0;
-    background-color: #191919;
+    background-color: #124E66;
+    background: rgba(0, 0, 0, 0.111);
+    backdrop-filter: saturate(100%) blur(200px);
 }
 
 .example {
-    border: 5px solid gray;
     margin-bottom: 2rem;
+    box-shadow: 7px 7px 10px #D3D9D4;
+    border-radius: 10px 75px 25px;
+    transition: all 500ms;
+}
+
+.example:hover {
+    transform: scale(1.10);
+    box-shadow: 0px 0px 20px 0px #D3D9D4;
 }
 
 .headline {
@@ -30,13 +43,13 @@
     width: 250px;
     height: 250px;
     display: flex;
-    margin-right: 70px;
+    margin-right: 100px;
     align-items: flex-start;
 }
 
 .experience-text {
     max-width: 550px;
-    color: white;
+    color: #D3D9D4;
 }
 
 .experience-text h1 {
@@ -51,7 +64,7 @@
 }
 
 span {
-    color: #00BFFF;
+    color: #AFDDE5;
 }
 
 .experience-text p {
@@ -59,6 +72,7 @@ span {
     line-height: 28px;
     margin-bottom: 40px;
     text-align: justify;
+    color: #AFDDE5;
 }
 
 /* Responsive Experience section */
@@ -70,6 +84,8 @@ span {
     .experience img {
         width: 200px;
         height: 200px;
+        margin-right: auto;
+        margin-left: auto;
     }
 
     .experience-text h1 {
