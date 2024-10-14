@@ -8,7 +8,7 @@
     font-family: Times, serif;
     font-size: 3vw; /* Responsif berdasarkan lebar viewport */
     text-align: center;
-    color: #D3D9D4;
+    color: #212A31;
     margin: 20px 0; /* Menambahkan margin atas dan bawah */
 }
 
@@ -31,6 +31,7 @@
     flex: 1 1 250px; /* Membuat gallery responsif */
     box-sizing: border-box;
     border-radius: 12px;
+
 }
 
 .gallery img:hover {
@@ -54,7 +55,7 @@
     }
 
     .gallery {
-        flex: 1 1 200px;
+        flex: 1 1 200px;                                                                   Mengatur ukuran dasar gallery
     }
 }
 

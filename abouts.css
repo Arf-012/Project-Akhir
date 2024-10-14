@@ -4,8 +4,8 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #124e66;
-    color: #2e3944;
+    background-image: linear-gradient(to bottom, #ffffff, #1b1a1e);;
+    color: rgb(75, 21, 19);
 }
 
 /* about section styles */
@@ -16,8 +16,8 @@ body {
 
 .kotak {
     border: 3px solid #172922f3;
-    background-color: #d3d9d4;
-    border-radius: 20px; /* Membuat border melengkung */
+    background-color: rgb(194, 229, 225);
+    border-radius: 55px; /* Membuat border melengkung */
     padding: 30px;
     margin: 50px 50px;
 }
@@ -56,15 +56,14 @@ body {
 }
 
 .btn {
-    text-decoration: wavy;
-    border-style: inherit;
+    text-decoration: solid;
     color: rgb(2, 2, 2);
-    background-color: rgb(173, 185, 202);
+    background-color: rgb(228, 218, 29);
     cursor: pointer;
-    transition: 0.3s ease;
+    transition: background-color 0.3s;
 }
 
 .btn:hover {
-    color: #058da2f3;
-    background-color: rgb(156, 43, 20);
+    color: white;
+    background-color: rgb(208, 140, 88);
 }
