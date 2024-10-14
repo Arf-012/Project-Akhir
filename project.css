@@ -8,7 +8,7 @@
     font-family: Times, serif;
     font-size: 3vw; /* Responsif berdasarkan lebar viewport */
     text-align: center;
-    color: #212A31;
+    color: #D3D9D4;
     margin: 20px 0; /* Menambahkan margin atas dan bawah */
 }
 
@@ -30,13 +30,13 @@
     align-items: center;
     flex: 1 1 250px; /* Membuat gallery responsif */
     box-sizing: border-box;
-    border-radius: 12px;
-
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px #D3D9D4;
 }
 
 .gallery img:hover {
-    transform: scale(1.02);
-    box-shadow: 0px 0px 20px 0px rgb(36, 35, 41);
+    transform: scale(1.10);
+    box-shadow: 0px 0px 20px 0px #D3D9D4;
     border-width: 2px;
 }
 
@@ -45,7 +45,7 @@
     height: auto;
     border-radius: 8px;
     border: 1px solid #124E66;
-    transition: all 1.1ms;
+    transition: all 500ms;
 }
 
 /* Media queries untuk tampilan lebih besar */
