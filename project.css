@@ -8,7 +8,7 @@
     font-family: Times, serif;
     font-size: 3vw; /* Responsif berdasarkan lebar viewport */
     text-align: center;
-    color: rgba(255, 255, 255, 0.452);
+    color: #D3D9D4;
     margin: 20px 0; /* Menambahkan margin atas dan bawah */
 }
 
@@ -35,7 +35,7 @@
 
 .gallery img:hover {
     transform: scale(1.02);
-    box-shadow: 0px 0px 20px 0px rgb(154, 61, 175);
+    box-shadow: 0px 0px 20px 0px rgb(36, 35, 41);
     border-width: 2px;
 }
 
@@ -43,8 +43,8 @@
     width: 100%;
     height: auto;
     border-radius: 8px;
-    border: 1px solid cyan;
-    transition: all 300ms;
+    border: 1px solid #124E66;
+    transition: all 1.1ms;
 }
 
 /* Media queries untuk tampilan lebih besar */
@@ -54,7 +54,7 @@
     }
 
     .gallery {
-        flex: 1 1 200px; /* Mengatur ukuran dasar gallery */
+        flex: 1 1 200px;
     }
 }
 
