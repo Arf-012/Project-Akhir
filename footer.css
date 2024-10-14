@@ -9,17 +9,8 @@
     display: flex;
 }
 
-.email-footer a {
-    text-decoration: none;
-}
-
-.my-profile a {
-    text-decoration: none;
-    color: #3c829d;
-}
-
 footer {
-    background-image: linear-gradient(to bottom, #124e66, #748d92);
+    background-color: #ce9da8;
 }
 
 .header-foot {
@@ -36,7 +27,6 @@ footer {
 h2{
     font-family: arial;
     font-size: 20px;
-    color: #d3d9d4;
 }
 .sosial-links{
     display: flex;
@@ -56,11 +46,11 @@ h2{
 }
 
 .sosial-links a:hover{
-    background-color: #212a31;
+    background-color: #ce9da8;
     transition: 0.5s;
 }
 .sosial-links a:hover i{
-    color: rgb(14, 2, 15);
+    color: rgb(43, 3, 47);
 }
 
 .footernav ul{
@@ -68,7 +58,7 @@ h2{
     justify-content: center;
 }
 .footernav ul a{
-    color: rgb(198, 196, 196);
+    color: #120d12;
     margin: 13px;
     text-decoration: none;
     font-size: 1.2em;
@@ -79,7 +69,7 @@ h2{
     opacity: 1rem;
 }
 .footerbottom{
-    background-color: #212a31;
+    background-color: #8a0b8288;
     padding: 20px;
     text-align: center;
 }
@@ -92,4 +82,18 @@ h2{
     text-transform: uppercase;
     letter-spacing: 1px;
     font-weight: 400;
+}
+
+.header-foot a {
+    text-decoration: solid;
+    color: rgb(2, 2, 2);
+    background-color: #8a0b8288;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    align-items: center;
+    border-radius: 55px;
+    border: #120d12;
 }
