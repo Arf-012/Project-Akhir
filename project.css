@@ -8,7 +8,7 @@
     font-family: Times, serif;
     font-size: 3vw; /* Responsif berdasarkan lebar viewport */
     text-align: center;
-    color: rgba(0, 0, 0, 0.452);
+    color: rgba(255, 255, 255, 0.452);
     margin: 20px 0; /* Menambahkan margin atas dan bawah */
 }
 

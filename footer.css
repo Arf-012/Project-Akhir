@@ -9,11 +9,12 @@
     display: flex;
 }
 
-footer {
-    background-color: #212a31;
+.email-footer a {
+    text-decoration: none;
 }
-p {
-    color: #748d92;
+
+footer {
+    background-image: linear-gradient(to bottom, #124e66, #748d92);
 }
 
 .header-foot {
@@ -62,7 +63,7 @@ h2{
     justify-content: center;
 }
 .footernav ul a{
-    color: #748d92;
+    color: rgb(198, 196, 196);
     margin: 13px;
     text-decoration: none;
     font-size: 1.2em;
@@ -73,7 +74,7 @@ h2{
     opacity: 1rem;
 }
 .footerbottom{
-    background-color: #e0d2df88;
+    background-color: #212a31;
     padding: 20px;
     text-align: center;
 }
